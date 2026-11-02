@@ -1,0 +1,34 @@
+{
+  "name": "task-manager-app",
+  "version": "1.0.0",
+  "description": "This is fullstack web app for task managment built using HTML, CSS, JS, NODE.JS, Express.Js",
+  "keywords": [
+    "Task",
+    "Task",
+    "Manager"
+  ],
+  "homepage": "https://github.com/KiroMorcos/Task-Manager#readme",
+  "bugs": {
+    "url": "https://github.com/KiroMorcos/Task-Manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiroMorcos/Task-Manager.git"
+  },
+  "license": "ISC",
+  "author": "Kirolos Morcos",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.4.0",
+    "express": "^5.3.0",
+    "express-jwt": "^8.5.1",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google": "^0.3.0",
+    "passport-microsoft": "^2.1.0"
+  }
+}
